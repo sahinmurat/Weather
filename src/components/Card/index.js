@@ -1,11 +1,11 @@
 import React from 'react'
-import CardStyle from './Card.style.css'
+import {StyledCardwrapper, StyledText} from './Card.style'
 
 function Card() {
     return (
-        <div className='card-wrapper'  >
-            <h1> Test    </h1>
-        </div>
+        <StyledCardwrapper>
+            <StyledText> Test    </StyledText>
+        </StyledCardwrapper>
     )
 }
 
