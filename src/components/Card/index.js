@@ -1,10 +1,12 @@
 import React from 'react'
 import {StyledCardwrapper, StyledText} from './Card.style'
 
-function Card() {
+
+
+function Card({movie} ) {
     return (
         <StyledCardwrapper>
-            <StyledText> Test    </StyledText>
+            <StyledText> {movie.title}  </StyledText>
         </StyledCardwrapper>
     )
 }
